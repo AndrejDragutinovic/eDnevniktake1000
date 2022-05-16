@@ -25,5 +25,10 @@ namespace eDnevnik
             Application.Exit();
         }
 
+        private void raspodelaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Raspodela frm_raspodela = new Raspodela();
+            frm_raspodela.Show();
+        }
     }
 }
