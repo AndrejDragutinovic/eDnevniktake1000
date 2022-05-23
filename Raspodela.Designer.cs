@@ -145,6 +145,7 @@ namespace eDnevnik
             this.btb_first.TabIndex = 10;
             this.btb_first.Text = "<<";
             this.btb_first.UseVisualStyleBackColor = true;
+            this.btb_first.Click += new System.EventHandler(this.btb_first_Click);
             // 
             // btn_prev
             // 
@@ -154,6 +155,7 @@ namespace eDnevnik
             this.btn_prev.TabIndex = 11;
             this.btn_prev.Text = "<";
             this.btn_prev.UseVisualStyleBackColor = true;
+            this.btn_prev.Click += new System.EventHandler(this.btn_prev_Click);
             // 
             // btn_insert
             // 
@@ -163,6 +165,7 @@ namespace eDnevnik
             this.btn_insert.TabIndex = 12;
             this.btn_insert.Text = "Dodaj";
             this.btn_insert.UseVisualStyleBackColor = true;
+            this.btn_insert.Click += new System.EventHandler(this.btn_insert_Click);
             // 
             // btn_edit
             // 
@@ -172,6 +175,7 @@ namespace eDnevnik
             this.btn_edit.TabIndex = 13;
             this.btn_edit.Text = "Izmeni";
             this.btn_edit.UseVisualStyleBackColor = true;
+            this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
             // 
             // btn_delete
             // 
@@ -181,6 +185,7 @@ namespace eDnevnik
             this.btn_delete.TabIndex = 14;
             this.btn_delete.Text = "Brisi";
             this.btn_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // btn_next
             // 
@@ -190,6 +195,7 @@ namespace eDnevnik
             this.btn_next.TabIndex = 15;
             this.btn_next.Text = ">";
             this.btn_next.UseVisualStyleBackColor = true;
+            this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
             // 
             // btn_last
             // 
@@ -199,12 +205,13 @@ namespace eDnevnik
             this.btn_last.TabIndex = 16;
             this.btn_last.Text = ">>";
             this.btn_last.UseVisualStyleBackColor = true;
+            this.btn_last.Click += new System.EventHandler(this.btn_last_Click);
             // 
             // Raspodela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(778, 450);
             this.Controls.Add(this.btn_last);
             this.Controls.Add(this.btn_next);
             this.Controls.Add(this.btn_delete);

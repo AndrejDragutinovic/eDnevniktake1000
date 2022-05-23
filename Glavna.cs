@@ -30,5 +30,29 @@ namespace eDnevnik
             Raspodela frm_raspodela = new Raspodela();
             frm_raspodela.Show();
         }
+
+        private void smeroviToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik frm_sifarnik = new Sifarnik("smer");
+            frm_sifarnik.Show();
+        }
+
+        private void skolskeGodineToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik frm_sifarnik = new Sifarnik("skolska_godina");
+            frm_sifarnik.Show();
+        }
+
+        private void predmetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik frm_sifarnik = new Sifarnik("predme");
+            frm_sifarnik.Show();
+        }
+
+        private void osobeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Sifarnik frm_sifarnik = new Sifarnik("osoba");
+            frm_sifarnik.Show();
+        }
     }
 }
